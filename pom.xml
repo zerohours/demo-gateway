@@ -23,6 +23,25 @@
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
 
+        <!-- Dapr's core SDK with all features, except Actors. -->
+        <dependency>
+            <groupId>io.dapr</groupId>
+            <artifactId>dapr-sdk</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+        <!-- Dapr's SDK for Actors (optional). -->
+        <dependency>
+            <groupId>io.dapr</groupId>
+            <artifactId>dapr-sdk-actors</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+        <!-- Dapr's SDK integration with SpringBoot (optional). -->
+        <dependency>
+            <groupId>io.dapr</groupId>
+            <artifactId>dapr-sdk-springboot</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
